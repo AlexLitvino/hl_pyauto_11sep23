@@ -81,3 +81,4 @@ if __name__ == '__main__':
     #vendor_repository.add_vendor(Vendor('James', 'bikes', 12, 15.45))
 
     print(vendor_repository.get_vendors_with_price_higher_then(1000))
+    vendor_repository.close()
